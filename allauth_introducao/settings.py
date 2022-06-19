@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-x*q*vna#y)7l#-*x$^_%ju*&3!+@30n$yp5yz3a^)-y#g57!y1
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://login-allauth.herokuapp.com']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
